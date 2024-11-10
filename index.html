@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD231 Home Page</title>
+    <meta
+      name="description"
+      content="WDD231 Web Frontend Course Home Page"
+    />
+    <meta name="author" content="Dylan Bunker" />
+
+    <meta property="og:title" content="WDD231 Home Page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/vicfalls-og.webp" />
+    <meta property="og:url" content="https://purplecre.github.io/wdd231/" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/home-mobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts/home.js" defer></script>
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="#" id="menu"></a>
+        <img
+          src="images/profile.jpg"
+          alt="Profile picture"
+        />
+        <h1>Dylan Bunker</h1>
+      </div>
+      <nav>
+        <a class="active" href="index.html">Home</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="#">GitHub Profile</a>
+        <a href="https://www.linkedin.com">LinkedIn</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Course Work</h1>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+      <section>
+        <h1>Las Vegas, NV</h1>
+        <figure>
+          <img
+            src="images/vegas.jpg"
+            alt="The Famous Las Vegas Strip"
+          />
+          <figcaption>Las Vegas</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h1>
+          Web and Computer Progarmming Certificate <br /><span id="cred"></span>
+        </h1>
+        <div id="nav">
+          <button>All</button>
+          <button>CSE</button>
+          <button>WDD</button>
+        </div>
+        <div id="courses"></div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy;<span id="currentyear"></span> ♉ Dylan Bunker ♉ Las Vegas, NV 🎰</p>
+      <p id="lastmodified"></p>
+    </footer>
+  </body>
+</html>
