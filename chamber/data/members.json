@@ -1,0 +1,67 @@
+{
+  "members": [
+      {
+          "index": 0,
+          "name": "Sahara Air",
+          "address": "Spring Valley - Las Vegas",
+          "phone": "1-702-796-9677",
+          "url": "https://saharaair.com/las-vegas-air-conditioning-services",
+          "logofile": "chamber1.webp",
+          "level": 2
+      },
+      {
+          "index": 1,
+          "name": "Larkin Plumbing",
+          "address": "Main Street - Downtown Las Vegas",
+          "phone": "1-702-601-9000",
+          "url": "https://www.larkinplumbingserviceus.com/",
+          "logofile": "chamber2.webp",
+          "level": 1
+      },
+      {
+          "index": 2,
+          "name": "Cellular Sales Verizon",
+          "address": "Blue Diamond - Las Vegas",
+          "phone": "1-702-637-3680",
+          "url": "https://www.cellularsales.com",
+          "logofile": "chamber0.webp",
+          "level": 1
+      },
+      {
+          "index": 3,
+          "name": "Distill",
+          "address": "Southern Highlands - Las Vegas",
+          "phone": "1-702-552-7878",
+          "url": "https://www.distillbar.com/",
+          "logofile": "chamber3.webp",
+          "level": 2
+      },
+      {
+          "index": 4,
+          "name": "Crystal Palace Skating Center",
+          "address": "Northeast Las Vegas",
+          "phone": "1-702-888-1616",
+          "url": "https://www.crystalpalacerancho.com",
+          "logofile": "chamber4.webp",
+          "level": 3
+      },
+      {
+          "index": 5,
+          "name": "M.J. Christiansen Jewelers",
+          "address": "Summerlin - Las Vegas",
+          "phone": "1-702-804-0245",
+          "url": "https://www.facebook.com/MJCDLV/",
+          "logofile": "chamber5.webp",
+          "level": 1
+      },
+      {
+          "index": 6,
+          "name": "Bunker Dance Center",
+          "address": "Northwest Las Vegas",
+          "phone": "1-702-878-7870",
+          "url": "https://www.instagram.com/bunkerdancelv",
+          "logofile": "chamber6.webp",
+          "level": 3
+      }
+  ]
+}
