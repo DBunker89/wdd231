@@ -1,7 +1,7 @@
 {
   "members": [
       {
-          "index": 0,
+          "index": 1,
           "name": "Sahara Air",
           "address": "Spring Valley - Las Vegas",
           "phone": "1-702-796-9677",
@@ -10,7 +10,7 @@
           "level": 2
       },
       {
-          "index": 1,
+          "index": 2,
           "name": "Larkin Plumbing",
           "address": "Main Street - Downtown Las Vegas",
           "phone": "1-702-601-9000",
@@ -19,7 +19,7 @@
           "level": 1
       },
       {
-          "index": 2,
+          "index": 3,
           "name": "Cellular Sales Verizon",
           "address": "Blue Diamond - Las Vegas",
           "phone": "1-702-637-3680",
@@ -28,7 +28,7 @@
           "level": 1
       },
       {
-          "index": 3,
+          "index": 4,
           "name": "Distill",
           "address": "Southern Highlands - Las Vegas",
           "phone": "1-702-552-7878",
@@ -37,7 +37,7 @@
           "level": 2
       },
       {
-          "index": 4,
+          "index": 5,
           "name": "Crystal Palace Skating Center",
           "address": "Northeast Las Vegas",
           "phone": "1-702-888-1616",
@@ -46,7 +46,7 @@
           "level": 3
       },
       {
-          "index": 5,
+          "index": 6,
           "name": "M.J. Christiansen Jewelers",
           "address": "Summerlin - Las Vegas",
           "phone": "1-702-804-0245",
@@ -55,7 +55,7 @@
           "level": 1
       },
       {
-          "index": 6,
+          "index": 7,
           "name": "Bunker Dance Center",
           "address": "Northwest Las Vegas",
           "phone": "1-702-878-7870",
