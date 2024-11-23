@@ -1,0 +1,34 @@
+{
+    "events": [
+        {
+            "event":"Las Vegas Small Business Convention",
+            "date":"November 20th-23rd, 2024",
+            "location": "Las Vegas, NV",
+            "description":"An incredible three day event at the Las Vegas Convention Ceneter. There will be business and advertising classes to sign up me, amazing speakers, and so many opportunities for your business to get on another level!"
+        },
+        {
+            "event":"Social Media Workshop",
+            "date":"December 13th, 2024",
+            "location":"Las Vegas, NV",
+            "description":" The most popular workshop we offer! Learn how to take control of the most powerful marketing tool your business has, Social Media."
+        },
+        {
+            "event":"Finance and Investment Bootcamp",
+            "date":"January 10th-12th, 2025",
+            "location":"Las Vegas, NV",
+            "description":"A three day intensive that will teach business owners how to correctly manage their finances, as well as how to invest so they can start making their money make money for them!"
+        },
+        {
+            "event":"Clean-Up Vegas",
+            "date":"February 18th, 2025",
+            "location":"North Las Vegas, NV",
+            "description":"A day event where local businesses take the day to come together and give back to the community. We choose a part of Las Vegas and go and clean it up, help with people's yards, house work, pick uop trash, and do anything and everything we can to make that part of Vegas a better place to go to when we are done!."
+        },
+        {
+            "event":"Tech-Con",
+            "date":"March 5-6, 2025",
+            "location":"Las Vegas, NV",
+            "description":"A two-day convention dedicated to discussing the future of technology and innovation, not only here in Las Vegas, but everywhere in the world! Attendees will hear from local tech innovators, software developers, and global technology experts. Sessions will focus on everything from AI and crypto, to renewable energy. This convention will show businesses how they can leverage technology to help their company last well into the future."
+        }
+    ]
+}

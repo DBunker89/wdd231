@@ -10,7 +10,7 @@
     <meta property="og:title" content="Las Vegas Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://dbunker89.github.io/wdd231/chamber/images/img-url.webp">
-    <meta property="og:url" content="https://dbunker89.github.io/wdd231/chamber/index.html">
+    <meta property="og:url" content="https://dbunker89.github.io/wdd231/chamber">
     <!-- Style tags -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,20 +18,17 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
-    <link rel="stylesheet" href="styles/components.css">
-    <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/chamber.css">
     <link rel="stylesheet" href="styles/chamber-large.css">
 
-
     <link rel="icon" href="favicon.ico">
 
+    <!-- General Script -->
     <script defer src="scripts/navbar.js"></script>
     <script defer src="scripts/footer.js"></script>
-    <script src="scripts/components.js" defer></script>
-    <script src="scripts/home.js" defer></script>
-    
-
+    <!-- Specific Scripts -->
+    <script defer src="scripts/member-sum.js"></script>
+    <script defer src="scripts/weather.js"></script>
 </head>
 <body>
     <header>
@@ -50,36 +47,49 @@
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
+    
     <main>
-        <section class="hero-container">
-            <img id="hero" src="images/network.jpg" alt="network event, people networking">
+
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large.webp">
+                <source media="(min-width: 640px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="City of Las Vegas" width="400" height="300">
+            </picture>
+            <a href="join.html">Join Us</a>
+        </div>
+
+        <h2>Home</h2>
+
+        <div class="events-weather">
             <div>
-                <h1>Las Vegas Chamber of Commerce</h1>
-                <p>Where businesses come to connect, share, and help the Las Vegas valley grow.</p>
+                <h3>Events</h3>
+                <div>
+                    <p>No Upcoming Events. Please, come back at a later date.</p>
+                </div>
+
+            </div>            
+
+            <div>
+                <h3>Current Weather</h3>
+                <div id="current-weather">
+                    <p>No data available</p>
+                </div>
             </div>
-        </section>
-        <section class="content-container">
-            <div class="call-to-action">
-                <h4>The Las Vegas Chamber of Commerce serves the community in many ways, but we mainly help businesses grow and get connected not only with eachother, but with the people of Las Vegas.</h4>
-                <button class="btn"><a href="join.html">Join</a></button>
-            </div>
-        </section>
-        <section class="content-container">
-            <h1>Some of Our Members</h1>
-            <div id="gold-members">
+
+            <div>
+                <h3>Weather Cast</h3>
+                <div id="weather-cast">
+                    <p>No data available</p>
+                </div>
 
             </div>
-        </section>
-        <section class="content-container" >
-            <h3>Future Events</h3>
-            <div id="current-event">
-            </div>
-        </section>
-        <section class="content-container" >
-            <h3>Weather forecast</h3>
-            <div id="weather">
-            </div>
-        </section>
+        </div>
+
+        <div id="business-sum">
+
+        </div>
+
     </main>
     <footer>
         <div>
