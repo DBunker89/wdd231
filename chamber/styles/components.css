@@ -164,13 +164,13 @@ ul.menuLinks li a:hover{
     background-color: #154360;
     color: #fff;
     border: none;
-    padding: auto;
+    padding: 5px;
     cursor: pointer;
 }
 
 .days div, .day-names div {
     text-align: center;
-    padding: auto 5px;
+    padding: 5px;
     border: 1px solid #ddd;
 }
 
