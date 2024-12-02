@@ -176,7 +176,7 @@ h3{
     font-weight:bolder;
     width: 30px;
     height: 30px;
-    padding: auto;
+    padding: 10px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -210,7 +210,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: none;
+    margin: auto;
 }
 @media only screen and (max-width:900px) {
  #formImg{   
