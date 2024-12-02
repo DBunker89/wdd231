@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Las Vegas Chamber of Commerce | Join Page</title>
+    <meta name="description" content="A page where businesses can join the Las Vegas Chamber of Commerce.">
+    <meta name="author" content="Dylan Bunker">
+    <!-- Facebook Open Graph tags -->
+    <meta property="og:title" content="Las Vegas Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://dbunker89.github.io/wdd231/chamber/images/img-url.webp">
+    <meta property="og:url" content="https://dbunker89.github.io/wdd231/chamber/index.html">
+    <!-- Style tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">    
+
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
+
+
+    <script defer src="scripts/navbar.js"></script>
+    <script defer src="scripts/footer.js"></script>
+    <script src="scripts/components.js" defer></script>
+    <script src="scripts/join.js" defer> </script>
+    <script src="scripts/home.js" defer> </script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Las Vegas Chamber of Commerce logo" width="45" height="40">
+        <div>
+            <h1>Las Vegas</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+        <button type="button" id="menu-button" aria-label="Menu button"> </button>
+    </header>
+    <nav id="animate-menu">
+        <ul class="menu-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="active-link"><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+        <section id="formSection">
+            <h3>Complete the Form to Join</h3>
+            <div class="registration-box">
+                <img id="formImg" src="images/peta.jpg" alt="trufi chasmbers of commerce">  
+                <form method="GET" action="thankyou.html" class="join-form">
+                    <h6>Become a Member</h6>
+                
+                    <!-- First Name -->
+                    <label for="first-name">Applicant's First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required title="Your First Name" autocomplete="given-name" placeholder="Dylan">
+                
+                    <!-- Last Name -->
+                    <label for="last-name">Applicant's Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required title="Your Last Name" autocomplete="family-name" placeholder="Bunker">
+                    <!-- Organizational Title -->
+                    <label for="org-title">Applicant's Professional Title:</label>
+                    <input type="text" id="org-title" name="org-title" title="Your Organizational Title" autocomplete="organization-title" 
+                         placeholder="CEO" >
+                    <!-- Email -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required title="Your Email Address" autocomplete="email" placeholder="name@email.com">
+                    <!-- Mobile Phone Number -->
+                    <label for="phone">Mobile Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required title="Your Mobile Phone Number" autocomplete="tel" placeholder="702-123-4567">
+                    <!-- Business/Organization's Name -->
+                    <label for="business-name">Business/Organization's Name:</label>
+                    <input type="text" id="business-name" name="business" required title="Your Business Name" autocomplete="organization" placeholder="Bunker Dance Center">
+                    <!-- Membership Level -->
+                    <label for="membership">Membership Level:</label>
+                    <select id="membership" name="membership" required>
+                        <option value="">Select a Membership Level</option>
+                        <option value="np">NP Membership (Non-Profit, No Fee)</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                   
+                    <label for="description">What do you do?</label>
+                    <textarea id="description" name="description" rows="4" cols="50" title="Describe your business" placeholder="Describe your work..."></textarea>
+                
+                  
+                    <label for="timestamp">
+                        <input type="hidden" id="timestamp" name="timestamp" value="">
+                    </label>
+                
+                    <input id="btn" class="btn" type="submit" value="Join">
+                
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p><b>Las Vegas Chamber of Commerce</b></p>
+            <p>NV</p>
+            <p>1234 LV Blvd</p>
+            <p>info@LVCC.org</p>
+            <p>1-702-123-4321</p>
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="images/facebook.svg" alt="Facebook" width="40" height="40"></a></li>
+            <li><a href="#"><img src="images/instagram.svg" alt="Instagram" width="40" height="40"></a></li>
+            <li><a href="#"><img src="images/linkedin.svg" alt="Linked-in" width="40" height="40"></a></li>
+        </ul>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p>Dylan Bunker</p>
+            <p>
+                © <span id="currentyear"></span> Las Vegas Chamber of Commerce
+            </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
