@@ -1,0 +1,126 @@
+@media screen and (min-width: 640px) {
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero {
+        background: linear-gradient(
+                rgba(0, 0, 0, 0.8),  /* Upper Color */
+                rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0)   /* Down Color */
+            ),
+            url('wildlife/images/hero-large.webp') no-repeat center center;
+    }
+
+    .hero a:hover,
+    #news-container a:hover {
+        background-color: var(--accent2-color);
+        color: var(--primary-color);
+        font-weight: bold;
+    }
+
+    /* NAVEGATION */
+
+    #menu-button {
+        display: none;
+    }
+
+    nav, 
+    nav.open {
+        grid-template-rows: 1fr;
+        transition: none;
+        border-bottom: none;
+    }
+
+    ul.menu-links {
+        display: flex;
+    }
+
+    ul.menu-links li {
+        flex: 1 1 100%;
+    }
+
+    ul.menu-links li a {
+        border-bottom: 5px solid var(--accent2-color);
+    }
+
+    /* FOOTER */
+
+    footer {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    footer > div {
+        margin: 0;
+        width: auto;
+    }
+
+    /* CONTACT US STYLE */
+
+    .forms {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .newspaper {
+        justify-self: center;
+        align-self: center;
+        min-width: 250px;
+    }
+
+    /* NEWS STYLE */
+
+    .layout-buttons.news-layout {
+        display: flex;
+    }
+
+    .news-container.list > article {
+        display: grid;
+        grid-template-columns: 11rem 1fr;
+    }
+
+    /* EXPLORE STYLE */
+
+    #animal-dialog > div > div {
+        display: flex;
+    }
+
+    #animal-dialog div.animal-behavior {
+        border-top: none;
+        border-left: 5px solid var(--accent1-color);;
+        margin-left: 1rem;
+    }
+
+    /* HOME STYLE */
+
+    #news-summary,
+    #endangered {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        min-height: 200px;
+    }
+
+    #news-summary article,
+    #endangered > div {
+        margin: 0.1rem;
+        border-radius: 0;
+    }
+
+    #news-summary h3 {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media screen and (min-width: 720px) {
+
+    #news-summary article,
+    #endangered > div {
+        margin: 1rem;
+        border-radius: 0.8rem;
+    }
+
+}
